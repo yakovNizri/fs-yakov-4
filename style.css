@@ -1,0 +1,13 @@
+body{
+    background-color:#f2f2f2;
+}
+a{
+    color:green;
+}
+input[type="submit"]{
+    width:500px;
+}
+h1{
+    font-weight: 100;
+    font-size:32px;
+}

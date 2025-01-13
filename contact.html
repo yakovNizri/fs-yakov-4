@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>יצירת קשר</title>
 </head>
 <body>
-    <form action="#">
-        <label for="firstName">שם פרטי</label>
-        <input type="text" name="" id="firstName" placeholder="שם פרטי" required><br>
-        <label for="lastName">שם משפחה</label>
-        <input type="text" name="" id="lastName" placeholder="שם משפחה" required><br>
+    <h1>Contact Us</h1>
+
+    <form action="">
+        <label for="fname">שם פרטי</label>
+        <input type="text" name="" id="fname" placeholder="שם פרטי" required><br>
+        <label for="lname">שם משפחה</label>
+        <input type="text" name="" id="lname" placeholder="שם משפחה" required><br>
         <label for="address">כתובת</label>
         <input type="text" name="" id="address" placeholder="כתובת" required><br>
         <label for="phone">מספר טלפון</label>
-        <input type="number" name="" id="phone" placeholder="מספר טלפון" required><br>
+        <input type="tel" name="" id="phone" placeholder="מספר טלפון" required><br>
         <label for="email">אימייל</label>
         <input type="email" name="" id="email" placeholder="אימייל" required><br>
-        <label for="mark">תוכן הפנייה</label>
+        <label for="mark">תוכן הפנייה</label><br>
         <textarea name="" id="mark" rows="5" required></textarea><br>
-        <label for="check1">הסכמה לקבל תוכן שיווקי</label>
-        <input type="checkbox" name="" id="check1" required><br>
+        <select name="" required>
+            <option value="" disabled selected hidden>How did you get to us?</option>
+            <option value="fbox">faceboox</option>
+            <option value="gle">google</option>
+            <option value="fnd">friend</option>
+            <option value="otr">other</option>
+        </select><br>
+        <input type="checkbox" name="" id="check1">
+        <label for="check1">הסכמה לקבל תוכן שיווקי</label><br>
+        <input type="checkbox" name="" id="check2" required>
+        <label for="check2">קראתי את המדיניות</label><br>
         <input type="submit">
     </form>
     <br>
